@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subsplash Giving Embed Test</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f1f5f9;
+      color: #0f172a;
+      margin: 0;
+      padding: 40px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 100%;
+      max-width: 600px;
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 1.25rem;
+      margin: 0 0 16px;
+      text-align: center;
+    }
+    .embed-container {
+      width: 100%;
+      min-height: 800px;
+    }
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Donation Form Preview</h1>
+    <div class="embed-container">
+      <iframe 
+        src="https://subsplash.com/u/-VJ34TN/give?embed=true&fund_id=0dc7c4a0-bd3f-4cfb-a0f2-cd2409d241d5&frequency=once" 
+        title="Subsplash Giving"
+        scrolling="yes">
+      </iframe>
+    </div>
+  </div>
+
+</body>
+</html>
